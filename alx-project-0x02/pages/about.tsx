@@ -1,3 +1,4 @@
+import Header from "@/components/layout/Header";
 import Head from "next/head";
 import Button from "@/components/common/Button";
 
@@ -7,6 +8,7 @@ export default function AboutPage() {
       <Head>
         <title>About Page</title>
       </Head>
+      <Header />
 
       <main className="flex flex-col items-center justify-center gap-4 min-h-screen bg-yellow-100">
         <h1 className="text-4xl font-bold text-yellow-800 mb-6">

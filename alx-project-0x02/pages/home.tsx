@@ -1,3 +1,4 @@
+import Header from "@/components/layout/Header";
 import Head from "next/head";
 import { useState } from "react";
 import Card from "@/components/common/Card";
@@ -23,6 +24,7 @@ export default function HomePage() {
       <Head>
         <title>Home Page</title>
       </Head>
+      <Header />
 
       <main className="flex flex-col items-center gap-6 py-10 bg-green-100 min-h-screen">
         <h1 className="text-4xl font-bold text-green-800">
